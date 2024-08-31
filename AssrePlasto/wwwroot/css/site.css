@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.product-rating-list {
+    padding: 0;
+}
+
+    .product-rating-list li {
+        display: inline-block;
+        margin-right: 3px;
+    }
+
+        .product-rating-list li i {
+            color: #e8b51c;
+        }

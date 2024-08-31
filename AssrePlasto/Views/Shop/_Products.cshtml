@@ -1,0 +1,361 @@
+﻿@{
+    ViewData["Title"] = "Products Page";
+}
+
+<div class="container-fluid">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="card ">
+                <div class="card-body card-breadcrumb">
+                    <div class="page-title-box d-flex align-items-center justify-content-between">
+                        <h4 class="mb-0">Products</h4>
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a hx-get="@Url.Action("Index", "Dashbord")" hx-target="#content" hx-push-url="true">Dashbord</a></li>
+                                <li class="breadcrumb-item active">Product</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/2.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike DF012</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$125.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/3.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike Df2154</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$115.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/4.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike DF012</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$125.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/5.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike DF012</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$251.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/1.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike DF012 Shoes</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$125.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/2.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike DF012 Shoes</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$125.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/4.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike DF012 Shoes</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$125.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Product -->
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body p-lg-4">
+                    <!-- Single Card -->
+                    <div class="single-product-card">
+                        <div class="single-product-img">
+                            <img src="~/img/shop-img/3.png" alt="">
+                            <a class="pro-choice" href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="single-product-meta">
+                            <a class="product-title" href="#">Nike DF012 Shoes</a>
+                            <ul class="product-rating-list">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="product-det-info">
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Navy Blue, Shoes
+                                </li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Solid Color</li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> Compatible With
+                                    Leg
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h4 class="product-price">$125.00</h4>
+                                <div class="button-area">
+                                    <a class="btn btn-primary" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
