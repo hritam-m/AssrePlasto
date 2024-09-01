@@ -37,7 +37,7 @@
     </div>
     <!-- /Preloader -->
     <!-- Choose Layout -->
-    <div class="choose-layout-area">
+    <div class="choose-layout-area" id="layout-area">
         <div class="setting-trigger-icon" id="settingTrigger">
             <i class="ti-settings"></i>
         </div>
@@ -115,9 +115,9 @@
         @await Html.PartialAsync("_SideMenu")
 
         <!-- Page Content -->
-        <div class="flapt-page-content">
+        <div class="flapt-page-content" id="page-content">
             <!-- Top Header Area -->
-            <header class="top-header-area d-flex align-items-center justify-content-between">
+            <header class="top-header-area d-flex align-items-center justify-content-between" id="header">
                 <div class="left-side-content-area d-flex align-items-center">
                     <!-- Mobile Logo -->
                     <div class="mobile-logo">

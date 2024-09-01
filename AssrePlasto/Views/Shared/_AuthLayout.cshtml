@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Assre Plasto</title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="~/style.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AssrePlasto.styles.css" asp-append-version="true" />
+    <script src="https://unpkg.com/htmx.org@2.0.1"></script>
+</head>
+<body class="login-area">
+    <div class="main-content- h-100vh" id="content">
+        @RenderBody()
+    </div>
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/default-assets/setting.js"></script>
+    <script src="~/js/default-assets/scrool-bar.js"></script>
+    <script src="~/js/todo-list.js"></script>
+    <script src="~/js/default-assets/active.js"></script>
+    <script src="~/js/sweetalert2.all.min.js"></script>
+    <script src="~/js/sweetalert-custom.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

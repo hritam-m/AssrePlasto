@@ -4,8 +4,10 @@ namespace AssrePlasto.Controllers;
 
 public class BaseController : Controller
 {
-    protected IActionResult HandleView(string? viewName = "Index", string partialViewName = "_Index", object? model = null)
+    protected IActionResult HandleView(string? viewName = "Index", string partialViewName = "_Index", object? model = null, string? layout = "_Layout")
     {
+        ViewData["Layout"] = layout;
+
         if (Request.Headers.ContainsKey("HX-Request"))
         {
             return PartialView(partialViewName, model);

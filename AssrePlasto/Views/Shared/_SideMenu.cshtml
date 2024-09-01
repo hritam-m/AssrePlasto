@@ -1,4 +1,4 @@
-﻿<div class="flapt-sidemenu-wrapper">
+﻿<div class="flapt-sidemenu-wrapper" id="sidemenu">
     <!-- Desktop Logo -->
     <div class="flapt-logo">
         <a href="index.html">
@@ -68,8 +68,16 @@
                             <i class="bx bx-user-circle"></i><span>Authentication</span> <i class="fa fa-angle-right"></i>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="register.html">Register</a></li>
+                            <li>
+                                <a href="@Url.Action("Login", "Auth")">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Register", "Auth")">
+                                    Register
+                                </a>
+                            </li>
                             <li><a href="forget-password.html">Forget Password</a></li>
                             <li><a href="lock-screen.html">Lock Screen</a></li>
                         </ul>
