@@ -26,6 +26,19 @@ public class ShopController : BaseController
         }
     }
 
+    public IActionResult ProductDetails()
+    {
+        try
+        {
+            return HandleView("ProductDetails", "_ProductDetails");
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "An error occurred while serving the Index view.");
+            return StatusCode(500, "Internal server error");
+        }
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
